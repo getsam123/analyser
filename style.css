@@ -1,0 +1,286 @@
+#profit-loss .data-table:first-child th:first-child,
+#profit-loss .data-table:first-child td:first-child {
+   position: sticky;
+   left: 0;
+}
+#profit-loss .responsive-holder {
+   width: auto;
+}
+#profit-loss .data-table:first-child th,
+#profit-loss .data-table:first-child td {
+   min-width: 70px;
+   max-width: 150px;
+   overflow: hidden;
+}
+.p-0 {
+   padding: 0 !important;
+}
+.green-bg {
+   background: var(--inserts-bg);
+   color: var(--inserts-text);
+}
+
+.orange-bg {
+   background: var(--deletes-bg);
+   color: var(--deletes-text);
+}
+
+.dark .green-bg,
+.dark #profit-loss .data-table:first-child thead tr th.green-bg,
+.dark #profit-loss .data-table:first-child tbody tr:last-child td:nth-last-child(2) {
+   background: #0e354f !important;
+   color: #fff;
+}
+
+.dark .orange-bg,
+.dark #profit-loss .data-table:first-child thead tr th.orange-bg,
+.dark #profit-loss .data-table:first-child tbody tr:last-child .orange-bg:last-child {
+   background: #4c3317a6 !important;
+   color: #fff;
+}
+
+.dark #profit-loss .data-table:first-child tbody tr:last-child td:nth-last-child(2) {
+   color: var(--inserts-text) !important;
+}
+
+.dark #profit-loss .data-table:first-child tbody tr:last-child .orange-bg:last-child {
+   color: var(--deletes-text) !important;
+}
+
+#profit-loss .data-table:first-child tbody tr:last-child td:nth-last-child(2) {
+   background: #478307cf !important;
+   color: #fff !important;
+}
+
+#profit-loss .data-table:first-child tbody tr:last-child .orange-bg:last-child {
+   background: #f54d4dcf !important;
+   color: #fff !important;
+}
+#profit-loss .data-table:first-child thead tr th.green-bg {
+   color: var(--inserts-text) !important;
+   background: #fff !important;
+   overflow: visible;
+   position: relative;
+   text-align: left;
+   padding: 1px;
+}
+
+#profit-loss .data-table:first-child thead tr th.orange-bg {
+   color: var(--deletes-text) !important;
+   background: #fff !important;
+   overflow: visible;
+   position: relative;
+   text-align: left;
+   padding: 1px;
+}
+
+h3.ratio-label {
+   background: var(--inserts-bg);
+   padding: 10px;
+   margin-left: -25px;
+   color: var(--inserts-text);
+   font-size: 15px;
+   min-width: 167px;
+}
+
+table.ratio-analysis-table:not(:first-child) {
+   margin-top: 25px;
+   border-top: 2px solid var(--lines);
+   padding-top: 10px;
+}
+
+table#leverageRatio {
+   border: none;
+   margin-top: 8px;
+   padding-top: 0;
+}
+
+.loader {
+   border: 3px solid #f3f3f3;
+   border-radius: 50%;
+   border-top: 3px solid var(--link-visited);
+   width: 17px;
+   height: 17px;
+   -webkit-animation: spin 2s linear infinite;
+   animation: spin 2s linear infinite;
+   position: absolute;
+   margin-top: -25px;
+   margin-left: -1px;
+}
+
+.PE,
+.OPM {
+   width: 50px;
+   padding: 0px 2px !important;
+   border: none !important;
+   border-radius: 0px !important;
+   background: #fff;
+
+   margin: 0 2px 0 10px;
+   text-align: right;
+}
+input[name='BestOPM'],
+input[name='BestPE'] {
+   border-bottom: 2px solid var(--up) !important;
+}
+
+input[name='WorstOPM'],
+input[name='WorstPE'] {
+   border-bottom: 2px solid var(--down) !important;
+}
+
+#profit-loss input[type='number']::-webkit-inner-spin-button,
+#profit-loss input[type='number']::-webkit-outer-spin-button {
+   -webkit-appearance: none;
+   -moz-appearance: none;
+   appearance: none;
+   margin: 0;
+}
+
+@-webkit-keyframes spin {
+   0% {
+      -webkit-transform: rotate(0deg);
+   }
+   100% {
+      -webkit-transform: rotate(360deg);
+   }
+}
+
+@keyframes spin {
+   0% {
+      transform: rotate(0deg);
+   }
+   100% {
+      transform: rotate(360deg);
+   }
+}
+
+#reverse-dcf .responsive-holder {
+   float: left;
+   flex: 2;
+}
+
+#reverse-dcf .responsive-holder:last-child {
+   margin-top: 50px;
+}
+
+#reverse-dcf .data-table th,
+#reverse-dcf .data-table td {
+   text-align: right !important;
+}
+#reverse-dcf .responsive-holder:last-child td:first-child {
+   text-align: left !important;
+}
+
+#reverse-dcf .responsive-holder:last-child td:last-child {
+   background-color: #e6e6fa50;
+}
+
+#reverse-dcf .responsive-holder:last-child tr:last-child td:last-child {
+   background: var(--inserts-text) !important;
+   color: #fff !important;
+}
+.reverse-dcf-form input[type='number'],
+.reverse-dcf-form #years {
+   padding: 7px 14px;
+}
+.primary-color {
+   color: var(--link);
+}
+#reverse-dcf .data-table td.text-center,
+#reverse-dcf .data-table th.text-center {
+   text-align: center !important;
+}
+#reverse-dcf .responsive-holder table {
+   border-collapse: collapse;
+}
+#tableBody,
+#tableValueBody {
+   border: 1.5px solid var(--border-color);
+}
+#cash-flow .ranges-table {
+   padding: 10px 10px;
+}
+.error-message {
+   color: var(--down);
+   font-weight: 600;
+}
+p.error-wrapper {
+   color: black;
+   font-size: 11px;
+   margin-top: 3px;
+   background: #daa52015;
+   padding: 0px 3px;
+   border: 1px solid #daa520;
+   border-radius: 5px;
+}
+p.reverse-dcf-error {
+   margin-top: -55px;
+   position: absolute;
+   font-size: 11px;
+   padding: 0px 3px;
+}
+button#calculate-reverse-dcf:hover {
+   background-color: #0073e609;
+}
+.success-color {
+   color: var(--up);
+}
+.error-color {
+   color: var(--down);
+}
+.ratio-color {
+   color: #0f5aa8 !important;
+}
+.green-color {
+   color: var(--inserts-text);
+}
+.inserts-color {
+   color: var(--inserts-text);
+   font-weight: 500;
+}
+.reverse-dcf-form {
+   overflow: visible;
+}
+.my-tooltip {
+   width: 300px;
+   padding: 5px 8px;
+   font-size: 12px;
+   text-align: left;
+   line-height: 15px;
+   font-weight: 500;
+}
+table th .my-tooltip {
+   width: 300px;
+   top: -12px;
+   height: max-content;
+   left: -50px;
+}
+table th.orange-bg .my-tooltip {
+   left: -120px;
+}
+table th.orange-bg .has-tooltip,
+table th.green-bg .has-tooltip {
+   position: absolute;
+}
+
+#reverse-dcf td.red-bg,
+#reverse-dcf .responsive-holder:last-child tr:last-child td:last-child.red-bg {
+   background: var(--deletes-text) !important;
+   color: #fff !important;
+}
+
+#reverse-dcf td.green-bg,
+#reverse-dcf .responsive-holder:last-child tr:last-child td:last-child.green-bg {
+   background: var(--inserts-text) !important;
+   color: #fff !important;
+}
+
+#reverse-dcf .responsive-holder:last-child td:last-child.red-bg-light {
+   background: var(--deletes-bg) !important;
+   color: var(--deletes-text) !important;
+}
+#reverse-dcf .responsive-holder:last-child td:last-child.green-bg-light {
+   background: var(--inserts-bg) !important;
+   color: var(--inserts-text) !important;
+}

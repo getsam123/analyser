@@ -1,0 +1,334 @@
+[
+    {
+        "sectorName": "Agro Chemicals",
+        "link": "00000001"
+    },
+    {
+        "sectorName": "Air Transport Service",
+        "link": "00000002"
+    },
+    {
+        "sectorName": "Alcoholic Beverages",
+        "link": "00000003"
+    },
+    {
+        "sectorName": "Auto Ancillaries",
+        "link": "00000004"
+    },
+    {
+        "sectorName": "Automobile",
+        "link": "00000005"
+    },
+    {
+        "sectorName": "Banks",
+        "link": "00000006"
+    },
+    {
+        "sectorName": "Bearings",
+        "link": "00000066"
+    },
+    {
+        "sectorName": "Cables",
+        "link": "00000007"
+    },
+    {
+        "sectorName": "Capital Goods - Electrical Equipment",
+        "link": "00000008"
+    },
+    {
+        "sectorName": "Capital Goods-Non Electrical Equipment",
+        "link": "00000009"
+    },
+    {
+        "sectorName": "Castings, Forgings & Fastners",
+        "link": "00000010"
+    },
+    {
+        "sectorName": "Cement",
+        "link": "00000011"
+    },
+    {
+        "sectorName": "Cement - Products",
+        "link": "00000012"
+    },
+    {
+        "sectorName": "Ceramic Products",
+        "link": "00000013"
+    },
+    {
+        "sectorName": "Chemicals",
+        "link": "00000014"
+    },
+    {
+        "sectorName": "Computer Education",
+        "link": "00000015"
+    },
+    {
+        "sectorName": "Construction",
+        "link": "00000016"
+    },
+    {
+        "sectorName": "Consumer Durables",
+        "link": "00000017"
+    },
+    {
+        "sectorName": "Credit Rating Agencies",
+        "link": "00000018"
+    },
+    {
+        "sectorName": "Crude Oil & Natural Gas",
+        "link": "00000019"
+    },
+    {
+        "sectorName": "Diamond, Gems and Jewellery",
+        "link": "00000020"
+    },
+    {
+        "sectorName": "Diversified",
+        "link": "00000021"
+    },
+    {
+        "sectorName": "Dry cells",
+        "link": "00000022"
+    },
+    {
+        "sectorName": "E-Commerce/App based Aggregator",
+        "link": "00000080"
+    },
+    {
+        "sectorName": "Edible Oil",
+        "link": "00000023"
+    },
+    {
+        "sectorName": "Education",
+        "link": "00000073"
+    },
+    {
+        "sectorName": "Electronics",
+        "link": "00000076"
+    },
+    {
+        "sectorName": "Engineering",
+        "link": "00000072"
+    },
+    {
+        "sectorName": "Entertainment",
+        "link": "00000024"
+    },
+    {
+        "sectorName": "ETF",
+        "link": "00000069"
+    },
+    {
+        "sectorName": "Ferro Alloys",
+        "link": "00000071"
+    },
+    {
+        "sectorName": "Fertilizers",
+        "link": "00000025"
+    },
+    {
+        "sectorName": "Finance",
+        "link": "00000026"
+    },
+    {
+        "sectorName": "FMCG",
+        "link": "00000027"
+    },
+    {
+        "sectorName": "Gas Distribution",
+        "link": "00000028"
+    },
+    {
+        "sectorName": "Glass & Glass Products",
+        "link": "00000029"
+    },
+    {
+        "sectorName": "Healthcare",
+        "link": "00000030"
+    },
+    {
+        "sectorName": "Hotels & Restaurants",
+        "link": "00000031"
+    },
+    {
+        "sectorName": "Infrastructure Developers & Operators",
+        "link": "00000032"
+    },
+    {
+        "sectorName": "Infrastructure Investment Trusts",
+        "link": "00000082"
+    },
+    {
+        "sectorName": "Insurance",
+        "link": "00000067"
+    },
+    {
+        "sectorName": "IT - Hardware",
+        "link": "00000033"
+    },
+    {
+        "sectorName": "IT - Software",
+        "link": "00000034"
+    },
+    {
+        "sectorName": "Leather",
+        "link": "00000035"
+    },
+    {
+        "sectorName": "Logistics",
+        "link": "00000036"
+    },
+    {
+        "sectorName": "Marine Port & Services",
+        "link": "00000083"
+    },
+    {
+        "sectorName": "Media - Print/Television/Radio",
+        "link": "00000037"
+    },
+    {
+        "sectorName": "Mining & Mineral products",
+        "link": "00000038"
+    },
+    {
+        "sectorName": "Miscellaneous",
+        "link": "00000039"
+    },
+    {
+        "sectorName": "Non Ferrous Metals",
+        "link": "00000040"
+    },
+    {
+        "sectorName": "Oil Drill/Allied",
+        "link": "00000041"
+    },
+    {
+        "sectorName": "Online Media",
+        "link": "00000075"
+    },
+    {
+        "sectorName": "Packaging",
+        "link": "00000042"
+    },
+    {
+        "sectorName": "Paints/Varnish",
+        "link": "00000043"
+    },
+    {
+        "sectorName": "Paper",
+        "link": "00000044"
+    },
+    {
+        "sectorName": "Petrochemicals",
+        "link": "00000045"
+    },
+    {
+        "sectorName": "Pharmaceuticals",
+        "link": "00000046"
+    },
+    {
+        "sectorName": "Plantation & Plantation Products",
+        "link": "00000047"
+    },
+    {
+        "sectorName": "Plastic products",
+        "link": "00000048"
+    },
+    {
+        "sectorName": "Power Generation & Distribution",
+        "link": "00000049"
+    },
+    {
+        "sectorName": "Power Infrastructure",
+        "link": "00000079"
+    },
+    {
+        "sectorName": "Printing & Stationery",
+        "link": "00000074"
+    },
+    {
+        "sectorName": "Quick Service Restaurant",
+        "link": "00000084"
+    },
+    {
+        "sectorName": "Railways",
+        "link": "00000077"
+    },
+    {
+        "sectorName": "Readymade Garments/ Apparells",
+        "link": "00000050"
+    },
+    {
+        "sectorName": "Real Estate Investment Trusts",
+        "link": "00000081"
+    },
+    {
+        "sectorName": "Realty",
+        "link": "00000051"
+    },
+    {
+        "sectorName": "Refineries",
+        "link": "00000052"
+    },
+    {
+        "sectorName": "Refractories",
+        "link": "00000053"
+    },
+    {
+        "sectorName": "Retail",
+        "link": "00000054"
+    },
+    {
+        "sectorName": "Sanitaryware",
+        "link": "00000070"
+    },
+    {
+        "sectorName": "Ship Building",
+        "link": "00000055"
+    },
+    {
+        "sectorName": "Shipping",
+        "link": "00000056"
+    },
+    {
+        "sectorName": "Steel",
+        "link": "00000057"
+    },
+    {
+        "sectorName": "Stock/ Commodity Brokers",
+        "link": "00000058"
+    },
+    {
+        "sectorName": "Sugar",
+        "link": "00000059"
+    },
+    {
+        "sectorName": "Telecom-Handsets/Mobile",
+        "link": "00000068"
+    },
+    {
+        "sectorName": "Telecomm Equipment & Infra Services",
+        "link": "00000060"
+    },
+    {
+        "sectorName": "Telecomm-Service",
+        "link": "00000061"
+    },
+    {
+        "sectorName": "Textiles",
+        "link": "00000062"
+    },
+    {
+        "sectorName": "Tobacco Products",
+        "link": "00000063"
+    },
+    {
+        "sectorName": "Trading",
+        "link": "00000064"
+    },
+    {
+        "sectorName": "Tyres",
+        "link": "00000065"
+    }
+]
