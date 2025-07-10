@@ -12,7 +12,7 @@ if(t<a.valuationRatio.length-1){let t=$("table#valuationRatio tbody tr:first-chi
 
 /* Inject forensic metrics */
 (function () {
-  (function () {
+  (function () { window.forensicMetricsData = (function() {
   const getRowValues = label =>
     Array.from(document.querySelectorAll("td")).find(td =>
       td.textContent.trim().startsWith(label)
@@ -233,19 +233,10 @@ if(t<a.valuationRatio.length-1){let t=$("table#valuationRatio tbody tr:first-chi
 
   console.table(metrics);
   console.log(`Red Flag Score: ${redFlagScore}%`);
-  console.log(document.documentElement.outerHTML);
+return { metrics }; })();
 })();
 
-  const forensicMetrics = [
-    "Cum CFO / EBITDA (6Y window median)",
-    "Depreciation Rate Volatility",
-    "Provision/Receivables > 6m",
-    "Δ Reserves / (PAT + Dividend)",
-    "Cash Yield",
-    "Other Cost %",
-    "CWIP / Gross Block (6Y median)",
-    "(CFO + CFI) / Median Revenue (6Y window median)"
-  ];
+  const metrics = window.forensicMetricsData.metrics;
 
   for (let i = 0; i < metrics.length; i++) {
     const row = $("#forensicRatio tbody tr").eq(i);
